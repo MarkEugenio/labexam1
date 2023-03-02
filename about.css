@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(243, 222, 195);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom: 100px;
+}
+
+
+.navbar{
+    background-color: rgb(219, 187, 123);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo{
+    position: relative;
+    width: 100px;
+    margin: 30px 0 ;
+    margin-left: 150px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 250px;
+    margin-top: 40px;
+    margin-left: -230px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #353434;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color:#5c6da3;
+  }
+
+
+.button{
+    position: relative;
+    left: -50px;
+    top: -35px;
+    line-height:40px;
+    width: 130px;
+    background-color: rgb(64, 66, 66);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+    box-shadow: 0px 6px 0px #787878;
+    transition: all 50ms;
+    color: #ecf0f1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   button:hover:not(:disabled) {
+    background: #5c6da3;
+    color: white;
+   }
+   
+   button:disabled {
+    cursor: auto;
+    color: grey;
+   }
+
+.main{
+    background-color:#b6b6b4;
+    width: auto;
+    margin:50px auto;
+    
+    height: 720px;
+}
+
+.title{
+    position: relative;
+    width: auto;
+    margin: auto;
+    color: #353434;
+    background-color: burlywood;
+    padding: 15px;
+    text-align: center;
+    border-radius: none;
+    font-size: 20px;
+}
+
+#par_1{
+    width: 500%;
+    height: 100px;
+}
+
+.par_1{
+    position: relative;
+    margin-left: 39rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #353434;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#par_2{
+    width: 500%;
+    height: 100px;
+}
+
+.par_2{
+    position: relative;
+    margin-left: 34rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #353434;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.paragraph_1{
+    position: relative;
+    margin-left: 28.9rem;
+    top: 1rem;
+    color: #353434;
+    font-size: 15px;
+    
+}
+
+.paragraph_2{
+    position: relative;
+    margin-left: 28.9rem;
+    top: 1rem;
+    color: #353434;
+    font-size: 15px;
+    
+}
+
+.picture{
+    width: 325px;
+    height: auto;
+    margin-left: 70rem;
+    margin-top: -29rem;
+}
